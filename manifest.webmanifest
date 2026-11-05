@@ -1,0 +1,21 @@
+{
+  "name": "مهامي",
+  "short_name": "مهامي",
+  "description": "قائمة مهام بالصوت مع تذكير متكرر - تطوير محمد القبيصي",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2F4F8",
+  "theme_color": "#2442D6",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "مهمة بالصوت", "short_name": "بالصوت", "url": "./?voice=1", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
